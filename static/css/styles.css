@@ -1,0 +1,57 @@
+/* Version: 1.1 */
+
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 2rem;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 1rem;
+}
+
+.btn {
+    margin-top: 1rem;
+}
+
+#response {
+    margin-top: 2rem;
+}
+
+.loading-spinner {
+    display: none;
+}
+
+/* Add styles for the dropdown menu */
+.dropdown-select {
+    width: 100%;
+    padding: .375rem 1.75rem .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background: #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right .75rem center;
+    background-size: 8px 10px;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    appearance: none; /* It's standard practice to include appearance last after -moz- and -webkit-, because it's the non-prefixed property. */
+}
+
+/* Style for error messages */
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
